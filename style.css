@@ -2,7 +2,9 @@
     width: 700px;
     background: pink;
 }
-
+#background1{
+    background: #030200;
+}
 #bodygallery{
     background: pink;
 }
@@ -31,4 +33,15 @@
 }
 .floatl{
     float: left;
+}
+#dov{
+    display: flex;
+    justify-content: center;
+}
+.textcenter{
+    text-align: center;
+}
+#bordatexto{
+    text-align: center;
+    border: 4px rgb(237, 172, 183) solid;
 }
