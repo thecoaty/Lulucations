@@ -1,18 +1,30 @@
-#body{
-    width: 700px;
+body{
     background: pink;
 }
 #background1{
     background: #030200;
 }
 #bodygallery{
-    background: pink;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+.text{
+    left: 50%;
+    width: 700px;
+    position: relative;
+    margin-left: -350px;
 
+}
 .menu{
     background: rgb(237, 172, 183);
-    float: left;
-    padding: 5px;
+
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .fotos{
     background: #e5e5e5;
@@ -23,7 +35,11 @@
 }
 #rodape{
     background: rgb(237, 172, 183);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-style: italic;
+
 }
 .foto{
     width: 900px;
@@ -44,4 +60,35 @@
 #bordatexto{
     text-align: center;
     border: 4px rgb(237, 172, 183) solid;
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+.gallery-items{
+    width: 340px;
+    height: 340px;
+}
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 10px solid #fff;
+    box-shadow: 5px 5px 5px #0006;
+}
+header{
+
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #000;
 }
