@@ -16,6 +16,10 @@ body{
     margin-left: -350px;
 
 }
+.text img{
+    width: 680px;
+
+}
 .menu{
     background: rgb(237, 172, 183);
 
@@ -29,6 +33,13 @@ body{
 .fotos{
     background: #e5e5e5;
     padding: 10px;
+}
+.fotos p{
+    font-size: 18px;
+}
+.fotos h1{
+    display: flex;
+    justify-content: center;
 }
 .clear{
     clear: both;
@@ -51,6 +62,7 @@ body{
     float: left;
 }
 #dov{
+        
     display: flex;
     justify-content: center;
 }
@@ -91,4 +103,7 @@ header h1{
     font-size: 3rem;
     font-weight: 900;
     color: #000;
+}
+.img-concert{
+    object-fit: cover;
 }
